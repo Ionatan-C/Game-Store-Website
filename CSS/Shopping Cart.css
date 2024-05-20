@@ -1,0 +1,155 @@
+
+
+#maintitle {
+    text-align: center;
+    
+    font-family: Cambria;
+    font-size: 35px;
+}
+
+h1 {
+    text-align: center;
+    
+    font-family: Cambria;/*this changes the font type as well as colour and size as well as position*/
+    font-size: 35px;
+}
+
+.div1 {
+    background-color: #166;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: center; /*this is to make the nav bar look nice and make all the links stay in the middle*/
+    border: solid white;
+}
+
+#navbar {
+    display: inline-block;
+    padding: 5px;
+    border:1px solid white;
+    background-color: black; /*This is to make the nav system look better as well as the position and spacing of them*/
+    margin-left: 6%;
+    margin-right: 8%;
+    font-family: Cambria;
+}
+
+#colour{
+    color: white;
+}
+
+#footer {
+    background-color: #166;
+    text-align: center;
+    position: relative; /*This is the footer and these are the attrivutes added to it for thee colour, the position, size of it as well as making it stay at the bottom*/
+    width: 100%;  
+    border: solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 25px; /*this changes teh text colour and size*/
+}
+
+.ColourChange {
+    float: left;
+}
+
+#imageicons {
+    width: 40px;
+    height: 40px; /*this is to keep the social media icons at the bottom to be spaced out a little and change the height and width*/
+    margin-left: 40px;
+}
+
+#insta {
+    width: 45px; 
+    height: 40px; /*this is the exact same as above except for instagram image, as it needed to move a little more to the right*/
+    margin-left: 40px;
+}
+
+
+
+
+
+/* (A) ENTIRE PAGE */
+#cart-wrap {
+    font-family: arial, sans-serif;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  input.cart, button.cart {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px; 
+    border: none;
+    color: #fff;
+    background: #16558F;
+    cursor: pointer;
+  }
+  
+  /* (B) PRODUCTS LIST */
+  #cart-products {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .p-item {
+    padding: 10px;
+    border: 1px solid #aaa;
+    text-align: center;
+
+    background: rgba(0,0,0,0.1);
+    display: block;
+  }
+  .p-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .p-img { max-width: 180px; }
+  .p-desc {
+    color: #777;
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  .p-price {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  input.p-add { width: 80%; }
+  
+  /* (D) CURRENT SHOPPING CART */
+  #cart-items {
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  .c-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .c-name {
+    width: 100%;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+  .c-del { width: 20%; }
+  .c-qty {
+    width: 75%;
+    font-size: 1em;
+  }
+  input.c-empty, input.c-checkout {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* (E) RESPONSIVE */
+  @media screen AND (max-width: 768px) {
+    #cart-wrap { grid-template-columns: 60% 40%; }
+    #cart-products { grid-template-columns: auto; }
+  }

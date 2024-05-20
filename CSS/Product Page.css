@@ -1,0 +1,176 @@
+
+
+#maintitle {
+    text-align: center;
+    
+    font-family: Cambria;
+    font-size: 35px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria;/*this changes the font type as well as colour and size as well as position*/
+    font-size: 35px;
+}
+
+
+#grid { 
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1vw;
+    }
+
+#grid > div.gridItem {
+    font-size: 5vw;
+    padding: .5em;
+    text-align: center;
+  }
+
+.div1 {
+    background-color: #166;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: center; /*this is to make the nav bar look nice and make all the links stay in the middle*/
+    border: solid white;
+}
+
+#navbar {
+    display: inline-block;
+    padding: 5px;
+    border:1px solid white;
+    background-color: black; /*This is to make the nav system look better as well as the position and spacing of them*/
+    margin-left: 6%;
+    margin-right: 8%;
+    font-family: Cambria;
+}
+
+#colour{
+    color: white;
+}
+
+#footer {
+    background-color: #166;
+    text-align: center;
+    position: relative; /*This is the footer and these are the attrivutes added to it for thee colour, the position, size of it as well as making it stay at the bottom*/
+    width: 100%;  
+    border: solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Game{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+#RSS {
+    display: inline-block;
+    padding: 5px;
+    font-family: Cambria;
+    
+    font-size: 25px; /*this changes teh text colour and size*/
+
+
+}
+
+#EFT {
+    display: inline-block;
+    padding: 5px;
+    font-family: Cambria;
+    margin-left: 12%;
+    font-size: 25px; /*this changes teh text colour and size*/
+
+
+}
+
+#FO {
+    display: inline-block;
+    padding: 5px;
+    font-family: Cambria;
+    margin-left: 11%;
+    font-size: 25px; /*this changes teh text colour and size*/
+
+}
+
+#S {
+    display: inline-block;
+    padding: 5px;
+    font-family: Cambria;
+    margin-left: 16%;
+    font-size: 25px; /*this changes teh text colour and size*/
+
+
+}
+
+#ACV {
+    display: inline-block;
+    padding: 5px;
+    font-family: Cambria;
+    margin-left: 7%;
+    font-size: 25px; /*this changes teh text colour and size*/
+
+
+}
+
+#KCD {
+    display: inline-block;
+    padding: 5px;
+    font-family: Cambria;
+    margin-left: 9%;
+    font-size: 25px; /*this changes teh text colour and size*/
+
+
+}
+
+#GR {
+    display: inline-block;
+    padding: 5px;
+    font-family: Cambria;
+    margin-left: 12%;
+    font-size: 25px; /*this changes teh text colour and size*/
+
+
+}
+
+#MHW {
+    display: inline-block;
+    padding: 5px;
+    font-family: Cambria;
+    margin-left: 13.5%;
+    font-size: 25px; /*this changes teh text colour and size*/
+
+
+}
+
+p {
+    font-size: 25px; /*this changes teh text colour and size*/
+
+}
+
+.ColourChange {
+    float: left;
+}
+
+#imageicons {
+    width: 40px;
+    height: 40px; /*this is to keep the social media icons at the bottom to be spaced out a little and change the height and width*/
+    margin-left: 40px;
+}
+
+#insta {
+    width: 45px; 
+    height: 40px; /*this is the exact same as above except for instagram image, as it needed to move a little more to the right*/
+    margin-left: 40px;
+}
+
+#shoppingCart{
+    width: 35px;
+    height: 28px;
+    display: inline-block;
+    padding: 5px; 
+}

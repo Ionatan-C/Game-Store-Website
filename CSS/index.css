@@ -1,0 +1,91 @@
+#maintitle {
+    text-align: center;
+    font-family: Cambria;
+    font-size: 35px;
+}
+
+#best {
+    margin-left: 23%;
+    font-family: Cambria; /*this is changing the position as well as font size and colour and type/ family*/
+    font-size: 35px;
+}
+
+#fontS{
+    float: right;
+}
+
+.ColourChange {
+    float: left;
+}
+
+#colour{
+    color: white;
+}
+
+
+.div1 {
+    background-color: #166;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: center; /*this is to make the nav bar look nice and make all the links stay in the middle*/
+    border: solid white;
+}
+
+#navbar {
+    display: inline-block;
+    padding: 5px;
+    border:1px solid white;
+    background-color: black; /*This is to make the nav system look better as well as the position and spacing of them*/
+    margin-left: 6%;
+    margin-right: 8%;
+    font-family: Cambria;
+}
+
+#footer {
+    background-color: #166;
+    text-align: center;
+    position: relative; /*This is the footer and these are the attrivutes added to it for thee colour, the position, size of it as well as making it stay at the bottom*/
+    width: 100%;  
+    border: solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+iframe {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 100px; /*this is to make the trailer stay in the left side of the screen*/
+    padding: 2px;
+    position: relative;
+}
+
+#GameIMG {
+    float: inline;
+    margin-bottom: 80px;
+    margin-left: 190px;
+    width: 480px;       /*this is to change the position and size of the image within the website*/
+    height: 600px; 
+    border-style: solid;
+    border-color: white;
+}
+
+#shoppingCart{
+    width: 35px;
+    height: 28px;
+    display: inline-block;
+    padding: 5px; 
+}
+
+#imageicons {
+    width: 40px;
+    height: 40px; /*this is to keep the social media icons at the bottom to be spaced out a little and change the height and width*/
+    margin-left: 20px;
+}
+    
+#insta {
+    width: 45px; 
+    height: 40px; /*this is the exact same as above except for instagram image, as it needed to move a little more to the right*/
+    margin-left: 20px;
+}

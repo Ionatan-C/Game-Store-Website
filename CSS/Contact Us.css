@@ -1,0 +1,170 @@
+h1 {
+    text-align: center;
+    font-family: Cambria;   /*this changes the font type as well as colour and size as well as position*/
+    font-size: 35px;
+}
+
+#colour{
+    color: white;
+}
+
+.ColourChange {
+    float: left;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    border:1px solid white; /*this is making the links within the navbar a white background as well as a white border*/
+    background-color: white;
+    font-family: Cambria;
+}
+
+
+
+.div1 {
+    background-color: #166;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: center; /*this is to make the nav bar look nice and make all the links stay in the middle*/
+    border: solid white;
+}
+
+#navbar {
+    display: inline-block;
+    padding: 5px;
+    border:1px solid white; /*This is to make the nav system look better as well as the position and spacing of them*/
+    background-color: black;
+    margin-left: 6%;
+    margin-right: 7%;
+}
+
+#footer {
+    background-color: #166;
+    padding:20px;
+    text-align: center;
+    position: relative;
+    bottom: 0; /*This is the footer and these are the attrivutes added to it for thee colour, the position, size of it as well as making it stay at the bottom*/
+    height: 40px;
+    width: 97%;
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+    display: inline-block;
+}
+
+.Main {
+    border-style: solid;
+    border-color: white;
+    padding: 20px;
+    margin-left: 31.5%;
+    margin-right: 200px;
+    margin-top: 30px;  /*This changes the huge orange box stay in a certain position as well as change the background*/
+    margin-bottom: 10px;
+    background-color: rgb(138, 86, 9);
+    display: inline-block;
+}
+
+#form form h1{
+    display: inline;
+}
+
+#name {
+    margin-left: 0px;
+    width: 635px; /*This changes the size as well as position*/
+    height: 30px;
+}
+
+#email {
+    margin-left: 0px;
+    width: 635px; /*This changes the size as well as position*/
+    height: 30px;
+}
+
+#enquirytype {
+    margin-left: 0px;
+    width: 641px; /*This changes the size as well as position*/
+    height: 30px;
+}
+
+#enquiry {
+    height: 200px;
+    width: 635px; /*This changes the size*/
+}
+
+#enquiry1 {
+    margin-left: 0px;
+    font-size: 20px; /*this changes the font size as well as colour and font type/ familiy*/
+    color: white;
+    font-family: Calibri;
+}
+
+#name1 {
+    font-size: 20px;
+    color: white;  /*This changes the font size and colour as well as font family*/
+    font-family: Calibri;
+}
+
+#email1 {
+    font-size: 20px;
+    color: white; /*This changes the font size and colour as well as font family*/
+    font-family: Calibri;
+}
+
+#type1 {
+    font-size: 20px;
+    color: white; /*This changes the font size and colour as well as font family*/
+    font-family: Calibri;
+}
+
+button {
+    display: inline;
+    margin-left: 280px;
+    height: 35px; /*This changes the size of the button as well as position of it by making it go more to the right with the margin-left code*/
+    width: 75px;
+}
+
+#imageicons {
+    width: 40px;
+    height: 40px; /*this is to keep the social media icons at the bottom to be spaced out a little and change the height and width*/
+    margin-left: 40px;
+}
+
+#insta {
+    width: 45px;
+    height: 40px; /*this is the exact same as above except for instagram image, as it needed to move a little more to the right*/
+    margin-left: 40px;
+}
+
+#shoppingCart{
+    width: 35px;
+    height: 28px;
+    display: inline-block;
+    padding: 5px; /*This is to make the nav system look better as well as the position and spacing of them*/
+}
+
+.hidden {
+    display: none;
+  }
+  
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .error {
+    background-color: red;
+  }
+  
+  .success {
+    background-color: green;
+  }
+  
+  .message {
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    border: white 1px solid;
+  }

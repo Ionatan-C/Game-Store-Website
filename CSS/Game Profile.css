@@ -1,0 +1,156 @@
+.colour{
+    color: white;
+}
+
+#RandIMG{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#main {
+    position: relative;
+    display: inline-flex; /*makes the content have a flexible position and relative as well*/
+}
+
+.ColourChange {
+    float: left;
+}
+
+h1 {
+    text-align: center;  /*this changes the font type as well as colour and size as well as position*/
+    font-family: Cambria;
+    font-size: 35px;
+}
+
+.div1 {
+    background-color: #166;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: center; /*this is to make the nav bar look nice and make all the links stay in the middle*/
+    border: solid red;
+    color: white;
+}
+
+#white {
+    color: white;
+}
+
+#navbar {
+    display: inline-block;
+    padding: 5px;
+    border:1px solid red;
+    background-color: black; /*This is to make the nav system look better as well as the position and spacing of them*/
+    margin-left: 6%;
+    margin-right: 8%;
+    color: white;
+}
+
+#footer {
+    background-color: #166;
+    padding:20px;
+    text-align: center;
+    position: relative;
+    bottom: 0; /*This is the footer and these are the attrivutes added to it for thee colour, the position, size of it as well as making it stay at the bottom*/
+    height: 40px;
+    width: 97%;
+    margin: auto;
+    border-style: solid;
+    border-color: red;
+}
+
+
+#Game {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 480px;
+    height: 600px; /*This changes the position, height and border colour as well as make the position relative*/
+    border-style: solid;
+    border-color: red;
+    position: relative;
+}
+
+#Gameplay1 {
+    margin-top: 30px;
+    margin-left: 23%;
+    margin-right: 23%;
+    width: 55%; /*This changes the position as well as height and width along with the border colour and makes the contents position relative and flexible so it will react when making the website smaller*/
+    height: 70%; 
+    border-style: solid;
+    border-color: red;
+    position: relative;
+    display: inline-flex;
+}
+
+#Description {
+    border-style: solid;
+    border-color: red;
+    margin-left: 19%;
+    margin-right: 19%; /*This makes the backlground orange and makes the text colour white and change the position of it as well as change font family*/
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: rgb(138, 86, 9);
+    font-family:Calibri;
+}
+
+#MSpec {
+    border-style: solid;
+    border-color: red;
+    background-color: grey;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30%; /*This makes the backlground grey and makes the text colour white and change the position of it as well as change font family*/
+    margin-right: 30%;
+    margin-top: 30px;
+    font-family: Cambria;
+}
+
+iframe {
+    margin-top: 0px;
+    margin-left: 10px;
+    padding: 2px;
+    width: 50%;
+    position: relative; /*This changes the position of the video trailer as well as make the border colour red*/
+    border-style: solid;
+    border-color: red;
+}
+
+#ProductLink {   
+    border-style: solid;
+    border-color: red; /*This changes the border colour and change the position as well as make the text colour white*/
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#imageicons {
+    width: 40px;
+    height: 40px; /*this is to keep the social media icons at the bottom to be spaced out a little and change the height and width*/
+    margin-left: 40px;
+}
+
+#insta {
+    width: 45px;
+    height: 40px; /*this is the exact same as above except for instagram image, as it needed to move a little more to the right*/
+    margin-left: 40px;
+}
+
+#shoppingCart{
+    width: 35px;
+    height: 28px;
+    display: inline-block;
+    padding: 5px; /*This is to make the nav system look better as well as the position and spacing of them*/
+}
+
+#addtoCart{
+    width: 250px;
+    height: 50px;  
+    text-align: center;
+    font-size: 30px;
+    border-style: solid;
+    border-color: red; /*This changes the border colour and change the position as well as make the text colour white*/
+    margin-left: 43.5%;
+    margin-right: 35%;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Contact Us.css"> <!--This connects the html file to the css file-->
+        <script src="../JAVASCRIPT/Contact Us.js" type="text/javascript"></script>
+    <title>Contact Us</title>
+
+</head>
+<body>
+    <script src="../JAVASCRIPT/Contact Us.js" type="text/javascript"></script>
+    <h1>Contact Us</h1> <!--This is the main header saying what page it is-->
+    <canvas height="10" width="1650" id="animatedCanvas"></canvas>
+    <div class="div1"> <!--This allows me to control everything within the div like the background colour and text size and position-->
+
+        <li id="navbar"><a id="colour" href="index.html">Homepage</a></li>
+
+        <li id="navbar"><a id="colour" href="Product page.html">Prodcut page</a></li> <!--These are the navigation system in the website, its what people will use to access different webpages-->
+
+        <li id="navbar"><a id="colour" href="About Us.html">About Us</a></li>
+
+        <li id="navbar"><a id="colour" href="Shopping Cart.html"><img id="shoppingCart" src="../IMAGES/shopping cart.png"></a></li>
+
+    </div>
+
+    <div class="Main"> <!--This allows me to control everything within the div like the background colour and text size and position-->
+        <form id="form">
+            <p id="email1" class="message email hidden"></p>
+            <p id="name1" class="message name hidden"></p>
+            <p id="enquiry1" class="message enquiry hidden"></p>
+
+            <h1 id="colour">Contact Us Form</h1>
+            <br>
+            <label id="name1" for="Name">Full Name:</label><br> <!--This is "break" which is going dow a line per every <br> -->  <!--This is the label which will say Full Name-->
+            <input type="text" id="name" name="name" placeholder="Type your full name here..">
+
+            <br><br> <!--This is "break" which is going dow a line per every <br> -->
+
+            <label id="email1" for="email">Email:</label><br> <!--This is "break" which is going dow a line per every <br> -->  <!--This is the label which will say email-->
+            <input type="email" id="email" name="email" placeholder="Type your Email here..">
+
+            <br><br> <!--This is "break" which is going dow a line per every <br> -->
+            
+            <label id="type1" for="Type of Enquiry">Type of Enquiry:</label><br> <!--This is "break" which is going dow a line per every <br> -->  <!--This is the label which will say type of enquiry-->
+            <select id="enquirytype" name="Your enquiry"> <!--This is the selection bar that users will select to select their issue-->
+                <option value="Payment Issue">Payment Issue</option> <!--This is the option that will come out when users click onto the selection bar-->
+                <option value="Refund">Refund</option> <!--This is the option that will come out when users click onto the selection bar-->
+                <option value="Other">Other</option> <!--This is the option that will come out when users click onto the selection bar-->
+            </select>
+
+            <br><br> <!--This is "break" which is going dow a line per every <br> -->
+
+            <label id="enquiry1" for="enquiry">Enquiry:</label><br><!--This is "break" which is going dow a line per every <br> -->  <!--This is the label which will say type of enquiry-->
+            <textarea id="enquiry" name="Enquiry" placeholder="Type your Issue here.." ></textarea> <!--This is where users will type their issues-->
+            <br><br> <!--This is "break" which is going dow a line per every <br> -->
+            <button type="submit">Submit</button> <!--This is the button that users will press to submit the form-->
+        </form>
+    </div>
+        
+    
+        
+</body>
+
+<footer id="footer"> <!--This is the footer and it has its "i" in order to edit it in css-->
+
+
+    <div id="social"> <!--This allows me to control everything within the div like the background colour and text size and position-->
+        <a href="https://twitter.com/?lang=en"><img id="imageicons" src="../IMAGES/twitter icon.png"></a> <!--These are all of the social media links-->
+        <a href="https://en-gb.facebook.com/"><img id="imageicons" src="../IMAGES/facebook icon.png"></a> <!--These are all of the social media links-->
+        <a href="https://www.instagram.com/?hl=en"><img id="insta" src="../IMAGES/instagram icon.png"></a> <!--These are all of the social media links-->
+
+        <label id="colour" class="ColourChange" for="theme">Select theme: </label>
+
+        <select class="ColourChange" id="theme">
+          <option value="black">Black</option>
+          <option value="white">White</option>
+          <option value="purple">Purple</option>
+          <option value="yellow">Yellow</option>
+          <option value="blue">Blue</option>
+        </select>
+    
+    </div>
+
+</footer>
+</html>

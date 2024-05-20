@@ -1,0 +1,110 @@
+h1 {
+    text-align: center;
+    font-family: Cambria;
+    font-size: 35px;
+}
+
+#colour{
+    color: white;
+}
+
+.ColourChange {
+    float: left;
+}
+
+#video1{
+    width: 40%;
+    aspect-ratio: 16/9;
+    margin-left: 450px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.control-button{
+margin-left: 365px;
+margin-right: 365px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    border:1px solid white; /*this is making the links within the navbar a white background as well as a white border*/
+    background-color: white;
+    font-family: Cambria;
+}
+
+
+.div1 {
+    background-color: #166;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: center; /*this is to make the nav bar look nice and make all the links stay in the middle*/
+    border: solid white;
+}
+
+#navbar {
+    display: inline-block;
+    padding: 5px;
+    border:1px solid white;
+    background-color: black; /*This is to make the nav system look better as well as the position and spacing of them*/
+    margin-left: 6%;
+    margin-right: 8%;
+}
+
+#footer {
+    background-color: #166;
+    text-align: center;
+    position: relative; /*This is the footer and these are the attrivutes added to it for thee colour, the position, size of it as well as making it stay at the bottom*/
+    width: 100%;  
+    border: solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Main {
+    border-style: solid;
+    border-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;  /*This changes the huge orange box stay in a certain position as well as change the background*/
+    margin-bottom: 10px;
+    background-color: rgb(138, 86, 9);
+    display: inline-block;
+}
+
+#Sub {
+    float: left;
+    margin-left: 5px; /*this cahnges teh colour and makes the position to be on the left side of the screen and push it a bit to the right*/
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    margin-left: 5px; /*this changes teh text colour and size*/
+    font-family: Calibri;
+    color: white;
+
+}
+
+#imageicons {
+    width: 40px;
+    height: 40px; /*this is to keep the social media icons at the bottom to be spaced out a little and change the height and width*/
+    margin-left: 40px;
+}
+
+#insta {
+    width: 45px;
+    height: 40px; /*this is the exact same as above except for instagram image, as it needed to move a little more to the right*/
+    margin-left: 40px;
+}
+
+#shoppingCart{
+    width: 35px;
+    height: 28px;
+    display: inline-block;
+    padding: 5px; /*This is to make the nav system look better as well as the position and spacing of them*/
+}

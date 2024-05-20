@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Checkout.css"> <!--This connects the html file to the css file-->
+    <script src="../JAVASCRIPT/Checkout.js" type="text/javascript"></script>
+    <title>Checkout</title>
+
+</head>
+<body>
+    <script src="../JAVASCRIPT/Checkout.js" type="text/javascript"></script>
+    <h1>Checkout</h1> <!--This is the main header saying what page it is-->
+    <canvas height="10" width="1650" id="animatedCanvas"></canvas>
+
+    <div id="form"> <!--This allows me to control everything within the div like the background colour and text size and position-->
+        <form>
+            <p id="name11" class="message name hidden"></p>
+            <p id="email11" class="message email hidden"></p>
+            <p id="town11" class="message town hidden"></p>
+            <p id="address11" class="message address hidden"></p>
+            <p id="postcode11" class="message postcode hidden"></p>
+            <p id="payment11" class="message paymentEmail hidden"></p>
+
+            <h1>Checkout</h1>
+            <label id="name1" for="Name">Full Name:</label><br> <!--This is "break" which is going dow a line per every <br> -->  <!--This is the label which will say Full Name-->
+            <input type="text" id="name" name="name" placeholder="Type your full name here..">
+
+            <br><br> <!--This is "break" which is going dow a line per every <br> -->
+
+            <label id="email1" for="email">Email:</label><br> <!--This is "break" which is going dow a line per every <br> -->  <!--This is the label which will say email-->
+            <input type="email" id="email" name="email" placeholder="Type your Email here..">
+
+            <br><br> <!--This is "break" which is going dow a line per every <br> -->
+            
+            <label id="country1" for="Type of Enquiry">Country:</label><br> <!--This is "break" which is going dow a line per every <br> -->  <!--This is the label which will say type of enquiry-->
+            <select id="countrytype" name="Country"> <!--This is the selection bar that users will select to select their issue-->
+                <option value="Country Choice">Please choose country</option> <!--This is the option that will come out when users click onto the selection bar-->
+                <option value="UK">UK</option> <!--This is the option that will come out when users click onto the selection bar-->
+                <option value="USA">USA</option> <!--This is the option that will come out when users click onto the selection bar-->
+            </select>
+
+            <br><br> <!--This is "break" which is going dow a line per every <br> -->
+
+            <label id="town1" for="town">Town:</label><br>
+            <input id="town" name="town" placeholder="Type your Town here.." ></input> <!--This is where users will type their issues-->
+            <br><br>
+
+            <label id="address1" for="address">Address:</label><br>
+            <input id="address" name="address" placeholder="Type your address here.." ></input>
+            <br><br>
+
+            <label id="postcode1" for="postcode">Postcode:</label><br>
+            <input id="postcode" name="postcode" placeholder="Type your postcode here.." ></input>
+            <br><br>
+
+            <label id="paymentEmail1" for="paymentEmail">paymentEmail:</label><br>
+            <input id="paymentEmail" name="paymentEmail" placeholder="Type your Payment Email (PayPal) here.." ></input>
+            <br><br>
+
+            <button type="submit">Submit</button> <!--This is the button that users will press to submit the form-->
+
+
+
+        </form>
+    </div>
+</body>
+
+<footer id="footer"> <!--This is the footer and it has its "i" in order to edit it in css-->
+
+
+    <div id="social"> <!--This allows me to control everything within the div like the background colour and text size and position-->
+        <a href="https://twitter.com/?lang=en"><img id="imageicons" src="../IMAGES/twitter icon.png"></a> <!--These are all of the social media links-->
+        <a href="https://en-gb.facebook.com/"><img id="imageicons" src="../IMAGES/facebook icon.png"></a> <!--These are all of the social media links-->
+        <a href="https://www.instagram.com/?hl=en"><img id="insta" src="../IMAGES/instagram icon.png"></a> <!--These are all of the social media links-->
+
+        <label class="ColourChange" for="theme">Select theme: </label>
+
+        <select class="ColourChange" id="theme">
+          <option value="black">Black</option>
+          <option value="white">White</option>
+          <option value="purple">Purple</option>
+          <option value="yellow">Yellow</option>
+          <option value="blue">Blue</option>
+        </select>
+    
+    </div>
+
+</footer>
+</html>
